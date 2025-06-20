@@ -5,8 +5,8 @@ header {
     color: #fff;
     font-style: italic;
     text-align: center;
-    font-family: "WDXL Lubrifont SC", sans-serif;
-    font-weight: bolder;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
 }
 
 .carousel-item img {
@@ -26,9 +26,9 @@ header {
     margin-top: 12px;
     padding-bottom: 6px;
     border-bottom: solid 3px #006A71;
-    font-family: "WDXL Lubrifont SC", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-style: italic;
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 .card {
@@ -69,4 +69,8 @@ header {
 .card-text {
     font-size: 0.95rem;
     color: #444;
+}
+
+.btn:hover {
+    transform: scale(1.03);
 }
