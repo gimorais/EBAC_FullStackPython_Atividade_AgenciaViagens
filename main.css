@@ -1,7 +1,45 @@
+header {
+    background-color: #48A6A7;
+    padding: 4px;
+    border-bottom: solid 5px #006A71;
+    color: #fff;
+    font-style: italic;
+    text-align: center;
+    font-family: "WDXL Lubrifont SC", sans-serif;
+    font-weight: bolder;
+}
+
 .carousel-item img {
     max-height: 500px;
     object-fit: cover;
     width: 100%;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+}
+
+#cidades {
+    text-align: center;
+    margin-top: 12px;
+    padding-bottom: 6px;
+    border-bottom: solid 3px #006A71;
+    font-family: "WDXL Lubrifont SC", sans-serif;
+    font-style: italic;
+    font-size: 40px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
 }
 
 .card img {
@@ -20,4 +58,15 @@
 
 .card-body a.btn {
     margin-top: auto;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #333;
+}
+
+.card-text {
+    font-size: 0.95rem;
+    color: #444;
 }

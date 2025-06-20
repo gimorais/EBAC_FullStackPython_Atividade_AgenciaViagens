@@ -1,23 +1,20 @@
-# Agência de Viagens - Destinos para Conhecer
+# 🌍 Agência de Viagens - NOMAD TRAILS
 
-Projeto de uma página de agência de viagens fictícia, desenvolvida com HTML, CSS e Bootstrap.
+Projeto de uma página fictícia de agência de viagens, desenvolvida com HTML, CSS e Bootstrap.
 
-## 🚧 Status
+## 🚀 Status
 
-Projeto em desenvolvimento.
+Projeto finalizado para entrega da atividade da EBAC.
 
-## ✨ Funcionalidades implementadas até agora
+## ✨ Funcionalidades implementadas
 
 - Carousel com imagens de destinos turísticos
-- Layout responsivo com grid de cards
+- Layout responsivo com grid de cards (1, 2 ou 3 colunas)
 - Cards com imagens, título, descrição e botão
+- Estilização personalizada com CSS
 
 ## 🛠 Tecnologias utilizadas
 
-- HTML5
-- CSS3
+- HTML5  
+- CSS3  
 - Bootstrap 5
-
-## 📌 Próximos passos
-
-- Melhorar design e estilização

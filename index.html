@@ -6,56 +6,57 @@
     <title>Destinos de Viagem</title>
     <link rel="stylesheet" href="./lib/bootstrap.min.css">
     <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=WDXL+Lubrifont+SC&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>Nomad Trails</h1>
+            <h1>NOMAD TRAILS</h1>
         </div>
     </header>
     <section>
-        <div class="container">
-            <div id="carousel-imagens" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="https://images.pexels.com/photos/19151870/pexels-photo-19151870.jpeg" alt="Lençóis Maranhenses">
-                        <div class="carousel-caption">
-                            <h2>Lençóis Maranhenses</h2>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://images.pexels.com/photos/13911606/pexels-photo-13911606.jpeg" alt="Cristo Redentor">
-                        <div class="carousel-caption">
-                            <h2>Cristo Redentor</h2>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://images.pexels.com/photos/2851515/pexels-photo-2851515.jpeg" alt="Cataratas do Iguaçu">
-                        <div class="carousel-caption">
-                            <h2>Cataratas do Iguaçu</h2>
-                        </div>
+        <div id="carousel-imagens" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://images.pexels.com/photos/19151870/pexels-photo-19151870.jpeg" alt="Lençóis Maranhenses">
+                    <div class="carousel-caption">
+                        <h2>Lençóis Maranhenses</h2>
                     </div>
                 </div>
-                <button data-bs-slide="prev" data-bs-target="#carousel-imagens" class="carousel-control-prev" type="button">
-                    <span class="carousel-control-prev-icon"></span>
-                </button>
-                <button data-bs-slide="next" data-bs-target="#carousel-imagens" class="carousel-control-next" type="button">
-                    <span class="carousel-control-next-icon"></span>
-                </button>
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carousel-imagens" data-bs-slide-to="0" class="active"></button>
-                    <button type="button" data-bs-target="#carousel-imagens" data-bs-slide-to="1"></button>
-                    <button type="button" data-bs-target="#carousel-imagens" data-bs-slide-to="2"></button>
+                <div class="carousel-item">
+                    <img src="https://images.pexels.com/photos/13911606/pexels-photo-13911606.jpeg" alt="Cristo Redentor">
+                    <div class="carousel-caption">
+                        <h2>Cristo Redentor</h2>
+                    </div>
                 </div>
+                <div class="carousel-item">
+                    <img src="https://images.pexels.com/photos/2851515/pexels-photo-2851515.jpeg" alt="Cataratas do Iguaçu">
+                    <div class="carousel-caption">
+                        <h2>Cataratas do Iguaçu</h2>
+                    </div>
+                </div>
+            </div>
+            <button data-bs-slide="prev" data-bs-target="#carousel-imagens" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-slide="next" data-bs-target="#carousel-imagens" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-imagens" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carousel-imagens" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-imagens" data-bs-slide-to="2"></button>
             </div>
         </div>
     </section>
 
     <section>
-        <h2>Cidades para Conhecer</h2>
+        <h2 id="cidades">Cidades para Conhecer</h2>
         <div class="container">
             <div class="row">
-                <div class="col-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="card h-100">
                         <img src="https://images.pexels.com/photos/27688577/pexels-photo-27688577.jpeg" alt="Lençóis Maranhenses">
                         <div class="card-body">
@@ -65,7 +66,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="card h-100">
                         <img src="https://images.pexels.com/photos/351283/pexels-photo-351283.jpeg" alt="Rio de Janeiro">
                         <div class="card-body">
@@ -75,7 +76,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="card h-100">
                         <img src="https://images.pexels.com/photos/13221935/pexels-photo-13221935.jpeg" alt="Cataratas do Iguaçu">
                         <div class="card-body">
