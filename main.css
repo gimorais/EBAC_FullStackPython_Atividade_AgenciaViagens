@@ -1,12 +1,14 @@
+body {
+    background-color: #f8f9fa;
+    font-family: "Poppins", sans-serif;
+    color: #212529;
+}
+
 header {
-    background-color: #48A6A7;
-    padding: 4px;
-    border-bottom: solid 5px #006A71;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    border-bottom: solid 4px #1c1c1c;
     color: #fff;
-    font-style: italic;
-    text-align: center;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
+    padding: 12px;
 }
 
 .carousel-item img {
@@ -22,13 +24,9 @@ header {
 }
 
 #cidades {
-    text-align: center;
-    margin-top: 12px;
-    padding-bottom: 6px;
-    border-bottom: solid 3px #006A71;
-    font-family: "Montserrat", sans-serif;
-    font-style: italic;
-    font-size: 2.5rem;
+    border-bottom-color: #2c5364;
+    font-family: "Poppins", sans-serif;
+    color: #2c5364;
 }
 
 .card {
@@ -58,6 +56,16 @@ header {
 
 .card-body a.btn {
     margin-top: auto;
+    transition: all 0.2s ease-in-out;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.card-body a.btn:hover {
+    background-color: #2c5364;
+    color: #fff;
 }
 
 .card-title {
@@ -69,8 +77,4 @@ header {
 .card-text {
     font-size: 0.95rem;
     color: #444;
-}
-
-.btn:hover {
-    transform: scale(1.03);
 }
