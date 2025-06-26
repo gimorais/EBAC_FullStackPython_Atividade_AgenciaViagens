@@ -11,16 +11,22 @@ header {
     padding: 12px;
 }
 
+#carousel-imagens {
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
 .carousel-item img {
-    max-height: 500px;
+    height: 400px;
     object-fit: cover;
+    border-radius: 0;
     width: 100%;
 }
 
 .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.4);
-    padding: 0.5rem 1rem;
-    border-radius: 6px;
+    background-color: rgba(44, 83, 100, 0.6);
+    border-radius: 0.5rem;
 }
 
 #cidades {
@@ -56,16 +62,6 @@ header {
 
 .card-body a.btn {
     margin-top: auto;
-    transition: all 0.2s ease-in-out;
-    border-radius: 0.5rem;
-    padding: 0.5rem 1rem;
-    font-weight: 600;
-    letter-spacing: 0.5px;
-}
-
-.card-body a.btn:hover {
-    background-color: #2c5364;
-    color: #fff;
 }
 
 .card-title {
